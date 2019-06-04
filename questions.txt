@@ -1,0 +1,32 @@
+What’s the difference between an Availability Zone, a Region, and an Edge Location?
+What can be customised within IAM?
+How can you stop your account from going over a certain money limit?
+What is an S3 bucket?
+What kind of data can S3 hold?
+How are you charged for S3 storage?
+Compare object and block based storage options in AWS.
+Describe the S3 consistency for PUTS, overwrite PUTS and DELETES.
+What are the S3 storage tiers and how do they differ among each other?
+How can you control the access to buckets?
+How is data protected within the S3 bucket?
+Define and compare encryption in transit and encryption at rest within the S3 context.
+What are the two types of S3 data encryption at rest?
+How does versioning work in S3 buckets?
+What is lifecycle management within the S3 context?
+What is S3 Transfer Acceleration, how does it work and how can we know how much time it can save us?
+What does CDN stand for? 
+Which AWS service might be used to provision a CDN?
+What is the Origin and the Distribution in the CloudFront’s CDN context?
+Do you have control of what objects are cached and can you delete them? What happens if you try?
+What are the two types of CloudFront distributions?
+What is CloudFront?
+What is Snowball and Snowball Edge?
+Describe Snowball security measures.
+What AWS service will be of use when you need to transfer a large amount of data into AWS?
+What is Storage Gateway?
+What are the three types of Storage Gateways?
+What are the two flavors of the Volume Storage Gateway and how do they differ?
+What is EC2?
+What are the different pricing models of EC2?
+What are the different types of the Reserved pricing model of EC2?
+
