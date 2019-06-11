@@ -1,4 +1,4 @@
-What�s the difference between an Availability Zone, a Region, and an Edge Location?
+What’s the difference between an Availability Zone, a Region, and an Edge Location?
 What can be customised within IAM?
 How can you stop your account from going over a certain money limit?
 What is an S3 bucket?
@@ -16,7 +16,7 @@ What is lifecycle management within the S3 context?
 What is S3 Transfer Acceleration, how does it work and how can we know how much time it can save us?
 What does CDN stand for? 
 Which AWS service might be used to provision a CDN?
-What is the Origin and the Distribution in the CloudFront�s CDN context?
+What is the Origin and the Distribution in the CloudFront’s CDN context?
 Do you have control of what objects are cached and can you delete them? What happens if you try?
 What are the two types of CloudFront distributions?
 What is CloudFront?
@@ -29,4 +29,137 @@ What are the two flavors of the Volume Storage Gateway and how do they differ?
 What is EC2?
 What are the different pricing models of EC2?
 What are the different types of the Reserved pricing model of EC2?
-
+What can be specified using Security Groups for EC2 instances? What are their default settings? 
+What is EBS?
+What are the five types of EBS and their respective API names?
+How can you move an EC2 instance from one AZ to another?
+How can you move an EC2 instance from one region to another?
+What is CloudWatch?
+What is CloudTrail?
+What is the difference between CloudWatch and CloudTrail?
+What are CloudWatch Events?
+How can you make sure your instances don’t go past a certain CPU utilisation percentage?
+What permissions are required for a user to have in order to be able to AWS CLI?
+Is AWS CLI access region-specific?
+What security risk does the use of AWS CLI pose?
+What is the more secure way of ensuring admin access in EC2’s CLI interface: storing creds in the instance or using roles?
+How can you use roles to aid your EC2 instance’s security?
+How can you obtain metadata and user data of your instance using the AWS CLI?
+What is EFS? 
+How can you mount EFS?
+What Placement Group types are there in EC2?
+What is a Clustered Placement Group in EC2?
+What is a Spread Placement Group in EC2?
+What are the two underlying hypervisors for EC2?
+Can you move a reserved instance from one region to another?
+What databases does RDS provide?
+What does RDS stand for?
+What are read replicas in RDS?
+What is the Multi-AZ model in RDS?
+What are the two RDS models and how are they different from each other?
+What structure do non-relational databases have?
+What is the difference between relational and non-relational databases?
+What is data warehousing and what are some examples of tools used for it?
+What are the two online transaction processing systems?
+What is OLAP?
+What is OLTP?
+What is the difference between OLAP and OLTP?
+What is the name of Amazon’s data warehousing solution?
+What is Amazon Redshift?
+What is DynamoDB?
+What’s ElastiCache?
+How does Amazon ensure fast retrieval of content for web applications?
+What do you do if your application’s database is overloaded?
+What are the two caching engines supported by ElastiCache?
+Is it possible to ssh into your RDS instances?
+Is RDS a serverless technology? Any exceptions?
+What are the two types of RDS backups?
+Are automated backups deleted when a database is deleted?
+Are snapshot backups deleted when a database is deleted?
+How does the automated backup system work?
+Does the DNS endpoint change when a database is restored from a backup of either kind?
+How does the database’s encryption influence its snapshots, backups and read replicas?
+What’s the one second rule in the DynamoDB context?
+What are the two types of read models of DynamoDB?
+What are the key features of DynamoDB?
+What are the possible configurations of RedShift?
+What are the key features of RedShift?
+How many copies of your data does RedSHift keep at all times?
+What is the pricing model for RedShift?
+What are the security measures of RedShift?
+Is RedShift available in Multi-AZ?
+What is Amazon Aurora?
+What are the key features of Aurora?
+What is the scaling mechanism in Aurora?
+What are the two types of read replicas?
+What is DNS?
+How does DNS work?
+What is the difference between Alias record or CNAME?
+What are some common DNS types?
+What is a domain registrar?
+What is a SoA record?
+How long can a DNS change take to propagate?
+What are the Route53’s routing policies?
+How does Route53’s simple routing work?
+How does Route53’s weighted routing work?
+How do health checks work in the context of Route53 weighted routing?
+How does Route53’s latency-based routing work?
+How does Route53’s failover routing work?
+How does Route53’s geolocation routing work?
+How does Route53’s geoproximity routing work?
+What is the difference between Route53’s geolocation and geoproximity routing?
+How does the Route53’s Multivalue Answer routing work?
+What does VPC stand for and what is it?
+What default AWS things are created together with a VPC?
+What is the maximum size of a subnet within VPC?
+How many IP addresses does Amazon reserve within a subnet?
+What does NAT stand for and how does it work?
+What is a NAT gateway?
+What is VPC peering?
+What is a NACL?
+How do VPC flow logs work and what are the 3 levels they can be set up at?
+What is a bastion host?
+What is Direct Connect?
+What is a VPC endpoint?
+What are the two types of VPC endpoints?
+What is a load balancer?
+What are the three types of load balancers?
+Describe the features of an Application Load Balancer.
+Describe the features of a Network Load Balancer.
+Describe the features of an Classic Load Balancer.
+What are sticky sessions?
+What is Cross Zone Load Balancing?
+What are path patterns?
+What are the fundamental design principles for high availability architectures?
+What is CloudFormation?
+What is QuickStart in the CloudFormation context?
+What is Elastic Beanstalk?
+What is SQS?
+What types of queues are there in SQS?
+What is Visibility Time Out in SQS?
+What is SQS’s Long Polling?
+What is SWF?
+What are the SQF actors and their functions?
+Compare SQS and SWF.
+What is SNS? 
+What are the benefits of SNS?
+What is Elastic Transcoder?
+What is API Gateway?
+What are the functionalities provided by the API Gateway?
+What are the configuration steps of API Gateway?
+What is Same Origin Policy?
+What is CORS?
+What is Kinesis?
+What are the three types of Kinesis?
+Which type of Kinesis stores data in shards?
+What are shards in Kinesis?
+What is Kinesis Analytics?
+What is Kinesis Firehose?
+What is Kinesis Streams?
+What is Web Identity Federation?
+What is Cognito?
+What are user and identity pools?
+What is Serverless?
+What is Lambda?
+How is Lambda usage priced?
+What are the benefits of using Lambda?
