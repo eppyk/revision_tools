@@ -3,17 +3,16 @@ import random
 filepath = 'questions.txt'
 
 
-print('\n\n\n\nThis script selects 5 random questions for the AWS Solutions Architect exam.\n')
-
+print('\n\n\n\nThis script selects random questions for the AWS Solutions Architect exam.\n')
+numberofqs = int(input('How many questions do you want to be asked? >>> '))
 with open(filepath) as fp:  
    lines = fp.readlines()
    num_lines = len(lines)
-   print('Make sure your questions.txt file is updated. \n\nCurrently there is %d questions in the database. \n\n\n\n' %(num_lines))
+   chosen_lines = random.sample(range(1, num_lines), numberofqs)
+   print('Make sure your questions.txt file is updated. \nCurrently there is %d questions in the database. \n\n' %(num_lines))
    cnt = 0
-   while cnt < 5:
-       randomnum = random.randint(1, num_lines-1)
-       print(lines[randomnum])
+   while cnt < numberofqs:
+       print(lines[chosen_lines[cnt]])
        cnt += 1
-       randomnum = random.randint(1, num_lines)
 
 
